@@ -1,0 +1,6 @@
+@WebApiSemana4_HostAddress = http://localhost:5104
+
+GET {{WebApiSemana4_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
