@@ -153,6 +153,7 @@ namespace WebApiSemana4.Controllers
             string mensaje = string.Empty;
             Alumno Alumno1 = new Alumno();
             Alumno Alumno2 = new Alumno("Juan", "Perez", "71427872", new DateTime(2000,1,29) );
+            string numero = "sister";
             return Alumno2.DevolverEdad();
         }
         
